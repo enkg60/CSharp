@@ -1,0 +1,15 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string favourite = "Soccer.";
+		string name = "Tom.";
+		string period = ".";
+		int age = 30;
+		Console.WriteLine("Hello, My Name is " +name); 
+		Console.WriteLine("My age is, " + age + period);
+		Console.WriteLine("I love to play, " +favourite);
+	}
+}
