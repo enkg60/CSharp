@@ -1,0 +1,24 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Random rndx = new Random();
+		int rndyear = rndx.Next(1, 2000);
+		Random rndy = new Random();
+		int rndmonth = rndy.Next(1, 12);
+		Random rndz = new Random();
+		int rndday = rndz.Next(1, 30);
+		string favourite = "Soccer.";
+		string name = "Tom.";
+		string period = ".";
+		int age = 30;
+		string LetterTo = "Tyler";
+		Console.WriteLine( rndyear +"/" + rndmonth + "/" +rndday);
+		Console.WriteLine("Dear, " +LetterTo);
+		Console.WriteLine("Hello, My Name is " +name); 
+		Console.WriteLine("My age is, " + age + period);
+		Console.WriteLine("I love to play, " +favourite);
+	}
+}
